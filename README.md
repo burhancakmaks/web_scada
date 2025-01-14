@@ -62,8 +62,17 @@ A dynamic and responsive web application that provides a real-time monitoring in
 
 
 I will share example screenshots from my previous project. I had developed a similar application in the past, and it was successfully used for a long time with great reliability.
+
+- Example Screenshot 1
+  
 ![Dashboard Example](img/example1.png)
+
+- Example Screenshot 2
+  
 ![Dashboard Example](img/example2.png)
+
+- Example Screenshot 3
+  
 ![Dashboard Example](img/example3.png)
 
 
