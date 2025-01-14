@@ -1,0 +1,42 @@
+
+.main-content {
+    margin-left: 260px; /* Sidebar genişliği */
+    padding: 20px;
+    transition: margin-left 0.3s ease; /* Sidebar açılıp kapanırken yumuşak animasyon */
+}
+
+.main-content.collapsed {
+    margin-left: 0; /* Sidebar kapandığında tam genişlik */
+}
+
+.content {
+    margin-top: 10px;
+}
+
+
+.wcard {
+    position: fixed;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.wcard .header {
+    background: #f4f4f4; /* Header arka plan rengi */
+    padding: 15px;
+    border-bottom: 1px solid #e6e6e6; /* Alt çizgi */
+    border-radius: 10px 10px 0 0; /* Üst köşeleri yuvarla */
+    font-size: 1.2rem; /* Yazı boyutu */
+    font-weight: bold;
+    color: #333; /* Yazı rengi */
+    text-align: center; /* Ortaya hizalama */
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}

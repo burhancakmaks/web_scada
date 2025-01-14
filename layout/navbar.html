@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="../styles/navbar.css">
+</head>
+<body>
+    <div class="navbar">
+        <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+        <!-- Hamburger Menü -->
+        <div class="nav-links">
+            <a href="#">Profile</a>
+            <a href="#">Settings</a>
+            <a href="#">Logout</a>
+        </div>
+    </div>
+
+    <script>
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('open'); // "open" sınıfını ekler veya kaldırır
+}
+
+
+    </script> 
+</body>
+</html>

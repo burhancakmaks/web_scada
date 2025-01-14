@@ -1,0 +1,60 @@
+/* Navbar */
+.navbar {
+    height: 55px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 260px;
+    width: calc(100% - 260px);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.navbar.collapsed {
+    left: 0;
+    width: 100%; /* Sidebar gizlendiğinde tam genişlik */
+}
+
+.navbar h1 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar .menu-toggle {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    outline: none;
+}
+
+.navbar .menu-toggle:hover {
+    color: #007bff;
+}
+/* Navbar Linkler */
+.navbar .nav-links {
+    display: flex;
+    gap: 15px; /* Linkler arası boşluk */
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.navbar .nav-links a {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    white-space: nowrap; /* Linkler tek satırda kalır */
+}
+
+.navbar .nav-links a:hover {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
