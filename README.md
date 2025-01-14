@@ -4,9 +4,6 @@ A dynamic and responsive web application that provides a real-time monitoring in
 
 ---
 
-![Dashboard Example](img/page.PNG)
-
-
 ## Features
 
 ### Real-Time Data Updates:
@@ -58,6 +55,11 @@ A dynamic and responsive web application that provides a real-time monitoring in
 - Mock data with a simulated data update interval.
 
 ---
+
+### Screenshot:
+
+![Dashboard Example](img/page.PNG)
+
 
 ## How to Run
 
