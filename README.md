@@ -56,13 +56,6 @@ A dynamic and responsive web application that provides a real-time monitoring in
 
 ---
 
-## Project Structure
-
-|-- index.html // Main HTML file |-- css/ | |-- main.css // General styles | |-- swater.css // Styles for water tanks |-- js/ | |-- app.js // Core JavaScript logic |-- bootstrap-5.3.3/ // Bootstrap framework files |-- README.md // Project documentation
-
-
----
-
 ## How to Run
 
 1. Clone the repository:
