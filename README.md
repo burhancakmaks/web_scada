@@ -4,6 +4,9 @@ A dynamic and responsive web application that provides a real-time monitoring in
 
 ---
 
+![Dashboard Example](img/page.PNG)
+
+
 ## Features
 
 ### Real-Time Data Updates:
