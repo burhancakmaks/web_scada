@@ -82,7 +82,7 @@ I will share example screenshots from my previous project. I had developed a sim
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/water-tank-monitoring.git
+   git clone https://github.com/burhancakmaks/web_scada.git
 
    ## Contact
 
